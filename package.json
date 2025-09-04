@@ -1,0 +1,56 @@
+{
+  "name": "technobuddha.github.io",
+  "version": "0.0.1",
+  "description": "Technobuddha application",
+  "author": {
+    "name": "Phil Hill",
+    "email": "phil@technobuddha.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technobuddha/technobuddha.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/technobuddha/technobuddha.github.io/issues"
+  },
+  "homepage": "https://github.com/technobuddha/technobuddha.github.io#readme",
+  "packageManager": "yarn@4.9.4",
+  "technobuddhaProject": {
+    "version": "0.99.1",
+    "created": "2025-08-30T18:29:09.486Z",
+    "updated": "2025-09-04T20:31:34.577Z"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@giancosta86/typedoc-readonly": "1.0.1",
+    "@technobuddha/library": "1.9.46",
+    "nodemon": "3.1.10",
+    "npm-run-all": "4.1.5",
+    "typedoc": "0.28.11",
+    "typedoc-plugin-coverage": "4.0.1",
+    "typedoc-plugin-markdown": "4.8.1",
+    "typedoc-plugin-mdn-links": "5.0.9",
+    "typedoc-vitepress-theme": "1.1.2",
+    "vitepress": "1.6.4"
+  },
+  "scripts": {
+    "dev": "run-p 'dev:**'",
+    "dev:src": "tsc -w -p src",
+    "dev:doc": "nodemon --watch dist --exec scripts/build-doc.sh",
+    "dev:vitepress": "vitepress dev",
+    "d": "run-s 'd:**'",
+    "d:src": "tsc -p src",
+    "d:doc": "typedoc",
+    "d:copy": "cp -r public doc",
+    "d:vitepress": "vitepress dev",
+    "build": "tsx scripts/build.ts"
+  },
+  "devDependencies": {
+    "@technobuddha/builder": "0.1.104",
+    "@technobuddha/project": "0.99.1"
+  }
+}
