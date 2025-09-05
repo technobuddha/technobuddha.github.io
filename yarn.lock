@@ -2000,16 +2000,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@technobuddha/builder@npm:0.1.104":
-  version: 0.1.104
-  resolution: "@technobuddha/builder@npm:0.1.104"
-  dependencies:
-    ansi-escapes: "npm:7.0.0"
-    chalk: "npm:5.6.0"
-    watch: "npm:1.0.2"
-  checksum: 10c0/4e6e56fa17152e3bc08a68dea446e94421a937c531255d6cbf95874296a28636f7998796c4527e73a1fb62e3fdeb74864f0295b95de3c4903eb7bf544d067946
+"@technobuddha/builder@link:../@technobuddha/builder::locator=technobuddha.github.io%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@technobuddha/builder@link:../@technobuddha/builder::locator=technobuddha.github.io%40workspace%3A."
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@technobuddha/library@npm:1.9.46":
   version: 1.9.46
@@ -2018,9 +2013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@technobuddha/project@npm:0.99.1":
-  version: 0.99.1
-  resolution: "@technobuddha/project@npm:0.99.1"
+"@technobuddha/project@npm:0.99.4":
+  version: 0.99.4
+  resolution: "@technobuddha/project@npm:0.99.4"
   dependencies:
     "@eslint/js": "npm:9.34.0"
     "@inquirer/prompts": "npm:7.8.4"
@@ -2070,7 +2065,7 @@ __metadata:
     watch: "npm:1.0.2"
   bin:
     tbproject: bin/tbproject
-  checksum: 10c0/d2555089a6e34844df0e25e323b933723093423872f49c531c59b46f7f29565d611a4d826c585e676dc47786095f9b92b3510a1fab336f99913da439ba21cea9
+  checksum: 10c0/00164ba092f0e59a67b4b3d83ad7ffe5f66ba8d4dd788eead77a1c17c56c0955a9571c93e4affcf88c6efda925a8cacdad1912c3dae52e4f569a12e75c11cff5
   languageName: node
   linkType: hard
 
@@ -8396,9 +8391,9 @@ __metadata:
   resolution: "technobuddha.github.io@workspace:."
   dependencies:
     "@giancosta86/typedoc-readonly": "npm:1.0.1"
-    "@technobuddha/builder": "npm:0.1.104"
+    "@technobuddha/builder": "link:../@technobuddha/builder"
     "@technobuddha/library": "npm:1.9.46"
-    "@technobuddha/project": "npm:0.99.1"
+    "@technobuddha/project": "npm:0.99.4"
     nodemon: "npm:3.1.10"
     npm-run-all: "npm:4.1.5"
     typedoc: "npm:0.28.11"

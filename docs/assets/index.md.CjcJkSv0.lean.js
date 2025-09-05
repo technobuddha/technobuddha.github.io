@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r,ag as d}from"./chunks/framework.8SQNO8WI.js";const u=JSON.parse('{"title":"@technobuddha","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),o={name:"index.md"};function h(n,t,c,i,l,s){return r(),e("div",null,[...t[0]||(t[0]=[d("",3)])])}const _=a(o,[["render",h]]);export{u as __pageData,_ as default};

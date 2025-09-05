@@ -17,9 +17,9 @@
   "homepage": "https://github.com/technobuddha/technobuddha.github.io#readme",
   "packageManager": "yarn@4.9.4",
   "technobuddhaProject": {
-    "version": "0.99.1",
+    "version": "0.99.4",
     "created": "2025-08-30T18:29:09.486Z",
-    "updated": "2025-09-04T20:31:34.577Z"
+    "updated": "2025-09-05T20:12:44.643Z"
   },
   "type": "module",
   "engines": {
@@ -38,19 +38,11 @@
     "vitepress": "1.6.4"
   },
   "scripts": {
-    "dev": "run-p 'dev:**'",
-    "dev:src": "tsc -w -p src",
-    "dev:doc": "nodemon --watch dist --exec scripts/build-doc.sh",
-    "dev:vitepress": "vitepress dev",
-    "d": "run-s 'd:**'",
-    "d:src": "tsc -p src",
-    "d:doc": "typedoc",
-    "d:copy": "cp -r public doc",
-    "d:vitepress": "vitepress dev",
+    "dev": "tsx scripts/dev.ts",
     "build": "tsx scripts/build.ts"
   },
   "devDependencies": {
-    "@technobuddha/builder": "0.1.104",
-    "@technobuddha/project": "0.99.1"
+    "@technobuddha/builder": "link:../@technobuddha/builder",
+    "@technobuddha/project": "0.99.4"
   }
 }

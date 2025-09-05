@@ -73,6 +73,5 @@ node_modules/
 
 # Local Git Ignore
 doc
-docs
 .vitepress/dist
 .vitepress/cache

@@ -3,7 +3,7 @@
 /** @type {import("@technobuddha/project").TechnobuddhaConfig} */
 const config = {
   git: {
-	  ignore: ['doc', 'docs', '.vitepress/dist', '.vitepress/cache']
+    ignore: ['doc', '.vitepress/dist', '.vitepress/cache']
   }
 };
 
