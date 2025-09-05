@@ -72,6 +72,6 @@ node_modules/
 .pnp.*
 
 # Local Git Ignore
-doc
+doc/
 .vitepress/dist
 .vitepress/cache
